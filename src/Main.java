@@ -1,9 +1,10 @@
 import java.util.Locale;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //Para subir a la branch
+        /*Para subir a la branch
         Scanner teclado = new Scanner(System.in);
         teclado.useLocale(Locale.US);
         double imc, peso, estatura;
@@ -26,6 +27,13 @@ public class Main {
             System.out.println("El indice de su masa corporal es: " + imc + "obesidad media");
         } else {
             System.out.println("El indice de su masa corporal es: " + imc + "obesidad morvida");
+        } */
+        //Aleatorio
+            Scanner teclado = new Scanner(System.in);
+            int min = 5;
+            int max = 100;
+            Random ale = new Random();
+            int numero = ale.nextInt((max - min +1)) + min;
+
         }
     }
-}
